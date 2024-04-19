@@ -23,4 +23,4 @@ Does NOT rename files in subfolders! That was not what I needed.
 done, enjoy!
 
 # License and Copyright
-This is free software, licensed under MIT License.
+This is free software.
