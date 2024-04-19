@@ -1,7 +1,8 @@
 # GoogleDriveDatePrefixer
-Prefix all files in multiple folders in Google Drive automatically after upload
+Prefix all files in multiple folders in Google Drive automatically after upload. Folders can be anywhere in your Google Drive.
 
-Does NOT rename files in subfolders! That was not what I needed.
+Does NOT rename files in subfolders of chosen folders! That was not what I needed.
+
 
 # HowTo
  1. in GoogleDrive, create a new folder for your Apps-Script.
