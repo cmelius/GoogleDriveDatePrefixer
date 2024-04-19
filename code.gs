@@ -19,7 +19,9 @@ function processFolder(folderId) {
   var files = folder.getFiles();
 
   var currentDate = Utilities.formatDate(new Date(), Session.getScriptTimeZone(), 'yyyyMMdd-HHmm');
-  var regex = new RegExp("^\\d{8}(_|-)"); // Match existing date prefix
+  // Regular expression to match any date in 'yyyyMMdd' format followed by an underscore, 
+  // so files that already have at least the date as prefix won't be renamed
+  var regex = new RegExp("^\\d{8}(_|-)");
 
   while (files.hasNext()) {
     var file = files.next();
