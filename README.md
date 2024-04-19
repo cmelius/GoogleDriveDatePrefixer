@@ -6,7 +6,7 @@ Does NOT rename files in subfolders! That was not what I needed.
 # HowTo
  1. in GoogleDrive, create a new folder for your Apps-Script.
  2. Click on "NEW" -> "more" - "Google Apps Script" to create your script
- 3. paste content of code.gs into editor
+ 3. paste content of "code.gs" into editor
  4. replace IDs in folderIds array with the IDs of the folders this script should be active in. 
     get folder IDs by copying the share url of the folders and use string between "drive.google.com/drive/folders/" and "?"
     example:
