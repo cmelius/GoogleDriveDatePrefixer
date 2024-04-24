@@ -9,9 +9,8 @@ Does NOT rename files in subfolders of chosen folders! That was not what I neede
  2. Click on "NEW" -> "more" - "Google Apps Script" to create your script
  3. paste content of "code.gs" into editor
  4. replace IDs in folderIds array with the IDs of the folders this script should be active in.  
-    Get folder IDs by copying the share url of the folders and use string between "drive.google.com/drive/folders/" and "?"
-    example:
-
+    Get folder IDs by copying the share url of the folders and use string between "drive.google.com/drive/folders/" and "?"  
+    example:  
     https://drive.google.com/drive/folders/0BxssOEieMZCaFkk5dCVpW3pRaVE?resourcekey=0-6br6ttYws2b03E_akEVHHA&usp=drive_link  
     folder-ID = 0BxssOEieMZCaFkk5dCVpW3pRaVE
 5. Save Script and execute to test. You will need to grant access, just follow instructions. 
